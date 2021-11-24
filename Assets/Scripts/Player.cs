@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
 
     private void OnEnable()
     {
+        // reset player's state when player's enabled
         Vector3 position = transform.position;
         position.y = 0f;
         transform.position = position;
